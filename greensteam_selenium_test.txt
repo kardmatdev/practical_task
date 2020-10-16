@@ -1,0 +1,17 @@
+Your task is to write a set of selenium test scenarios for pages accessible from https://manager.greensteam.com url.
+
+Use python3, pytest & selenium. Organize the code however you like, but please provide instructions how to run it (requirements.txt or equivalent, readme file).
+
+The tests will be run on Ubuntu Linux, using latest Firefox and geckodriver available
+(geckodriver will be accessible in the PATH env variable).
+
+Example command that can be used to start tests could look like this: (assuming geckodriver binary is in the current directory)
+$ PATH=$PATH:. pytest test_module.py --driver=Firefox
+
+Use page objects design pattern, assuming the code that you create is a part of a bigger test suite.
+
+Also assume that the user John Doe (username: john@example.com, password: test) has an account on this website, and login using his username & password should be successfull and direct user to https://manager.greensteam.com/dashboard (it won't be, so expect that test to fail).
+
+The time limit for this assignment is 4 hours.
+
+Good luck!
